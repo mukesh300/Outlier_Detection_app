@@ -1,0 +1,23 @@
+DB:
+  sqlite3: /db/imageclassifierapp.db
+  schema: /schema.sql
+
+dataset:
+  url: ftp://guest:GU.205dldo@ftp.softronics.ch/mvtec_anomaly_detection/capsule.tar.xz
+
+ui:
+  welcome_screen: /ui/welcomescreen.ui
+  loginscreen: /ui/loginscreen.ui
+  signup_screen: /ui/createaccountscreen.ui
+
+data:
+  thumbnail_path: /images/thumbnails/
+  stream_path: /images/streamed_images/
+  processed_good: /images/processed_images/good/
+  processed_bad: /images/processed_images/bad/
+
+model:
+  od_model: /workbooks/finalized_model.pickle
+
+application:
+  window_title: SwitchOn
