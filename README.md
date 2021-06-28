@@ -16,14 +16,14 @@ python3 template.py
 ```
 
 generate the model by running all cells of jupyter notebook
-generate_od.ipynb
+generate_od.ipynb 
 ```bash
 cd /workbooks
 jupyter-lab
 ```
 
 # Input Data
-"images/streamed_images" is the default input for the application can be updated in config as required 
+"images/streamed_images" is the default input for the application and can be updated in config as required 
 
 
 # Application Setup
